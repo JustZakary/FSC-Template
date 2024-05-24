@@ -1,4 +1,5 @@
 <script>
+  import {initializeApp} from 'firebase/app';
   import Router, {location, pop, push, querystring, replace} from 'svelte-spa-router';
   //Import Routes
   import HomePage from './routes/Home.svelte';
@@ -39,6 +40,10 @@
   function handleRouteChange() {
     window.scrollTo(0, 0);
   }
+
+  import firebaseConfig from '../firebaseConfig.json';
+  const app = initializeApp(firebaseConfig);
+  window.app = app;
 </script>
 
 <div>

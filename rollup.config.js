@@ -22,7 +22,7 @@ export default (args) => {
       input: './svelte/main.js',
       output: {
         sourcemap: true,
-        name: 'samara',
+        name: 'templateapp',
         format: 'iife',
         file: './www/bundle.js',
       },
