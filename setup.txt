@@ -1,3 +1,0 @@
-- replace all instances of "templateapp" with app name
-- replace all instances of "templatecompany" with company
-- replace all instances of "Template App" with app name
