@@ -1,8 +1,8 @@
-# App Name
+# FSC-Template
 
 ## Introduction
 
-This is a template for creating a Svelte app with Firebase integration.
+This is a template for creating a Svelte + Cordova app with Firebase integration.
 
 ## Getting Started
 
